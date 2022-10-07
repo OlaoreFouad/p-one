@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./assets/scss/main.scss";
+
+button.primary-button {
+  padding: 20px 50px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #1f9fed;
+  border-radius: 7px;
+  color: #1f9fed;
+  outline: none;
+  transition: all 0.4s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #1f9fed;
+    color: white;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}

@@ -1,0 +1,59 @@
+.intro-container {
+  background-color: #1f9fed;
+  height: calc(100vh - 70px);
+  padding: 2rem 0;
+
+  .intro-content {
+    padding: 10rem 0;
+    height: 100%;
+
+    &__main {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .down-arrow {
+        margin-top: 100px;
+      }
+
+      p.info {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 300;
+      }
+
+      .block-text {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: white;
+        margin-bottom: 20px;
+
+        span {
+          padding: 15px 30px;
+          background-color: rgba(98, 188, 242, 0.5);
+        }
+
+        &.block-text__larger {
+          font-size: 4rem;
+          font-weight: 600;
+        }
+      }
+    }
+
+    &__image {
+      img {
+        height: 60vh;
+        width: 55vh;
+        margin: 0 auto;
+        position: relative;
+        transform: translate(-20px, -20px);
+      }
+
+      div.bg {
+        height: 60vh;
+        width: 55vh;
+        background-color: rgba(98, 188, 242, 0.5);
+      }
+    }
+  }
+}

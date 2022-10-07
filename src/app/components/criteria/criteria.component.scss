@@ -1,0 +1,42 @@
+.criteria-container {
+  padding: 10rem 0;
+
+  .showcase {
+    height: 100%;
+    width: 100%;
+    background-image: url("./../../../assets/images/criteria-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 120% 90%;
+  }
+
+  h1 {
+    margin-left: 30px;
+    padding-left: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      margin-left: 0;
+      padding-left: 30px;
+      position: relative;
+
+      &:before {
+        content: url("./../../../assets/images/polygon.png");
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.task-container {
+  padding: 8rem 0;
+  height: 50rem;
+  background-image: url("./../../../assets/images/task-image.png");
+  background-position: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  .content {
+    padding: 3rem 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      color: white;
+      margin: 2rem 0 4rem 0;
+    }
+
+    p {
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      font-size: 300;
+    }
+  }
+}
+
+.deadline-container {
+  .deadline-content {
+    padding: 6rem 0;
+    background-color: #f2faff;
+    border-radius: 7px;
+    margin: 0 70px 50px 70px;
+    margin-top: -120px;
+
+    .deadline-content__main {
+      margin: 0 auto;
+      width: 50%;
+
+      span.deadline-header {
+        font-size: 1.1rem;
+        color: #636161;
+      }
+
+      span.deadline-date {
+        font-size: 1.5rem;
+      }
+    }
+
+    button {
+      width: 70%;
+    }
+  }
+}
