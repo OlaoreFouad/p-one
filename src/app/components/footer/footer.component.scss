@@ -2,8 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  text-align: center;
 
   p.right-text {
     margin-left: auto;
+  }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+
+    p.right-text {
+      margin-left: 0;
+    }
   }
 }

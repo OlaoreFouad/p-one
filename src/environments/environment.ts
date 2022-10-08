@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  applicationUrl: 'https://my.forms.app/form/633fec7b0161c14210cca3ac',
 };
 
 /*
