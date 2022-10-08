@@ -18,6 +18,11 @@
       .down-arrow {
         margin-top: 100px;
 
+        .down-arrow-image {
+          height: 50px;
+          width: 50px;
+        }
+
         &:hover {
           cursor: pointer;
         }
