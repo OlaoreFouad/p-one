@@ -1,9 +1,10 @@
 .criteria-container {
   padding: 10rem 0;
 
-  background-image: url("./../../../assets/images/criteria-image.png");
+  background-image: url("https://res.cloudinary.com/dywqrl9ia/image/upload/v1665419714/press-one-landing/criteria-image_rthrrc.png");
   background-repeat: no-repeat;
   background-size: 50rem;
+  background-color: #f6f6f6;
   background-position: 25% 100%;
 
   @media (max-width: 768px) {
@@ -39,7 +40,7 @@
       position: relative;
 
       &:before {
-        content: url("./../../../assets/images/polygon.png");
+        content: url("https://res.cloudinary.com/dywqrl9ia/image/upload/v1665419714/press-one-landing/polygon_uvzsbf.png");
         position: absolute;
         left: 0;
         top: 0;

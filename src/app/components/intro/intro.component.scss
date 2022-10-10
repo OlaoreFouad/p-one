@@ -1,14 +1,17 @@
 .intro-container {
-  height: 51rem;
-  background-image: url("./../../../assets/images/lines.png");
+  height: 53.2rem;
+  background-image: url("https://res.cloudinary.com/dywqrl9ia/image/upload/v1665419713/press-one-landing/lines_ldjxqz.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-color: #1f9fed;
   padding: 2rem 0;
+  position: relative;
+  z-index: 99999999;
 
   .intro-content {
     padding-top: 10rem;
     height: 100%;
+    z-index: 999;
 
     &__main {
       display: flex;
@@ -16,6 +19,7 @@
       height: 100%;
 
       .down-arrow {
+        z-index: 999999999;
         margin-top: 100px;
 
         .down-arrow-image {
@@ -73,3 +77,16 @@
     }
   }
 }
+
+// .intro-container::before {
+//   content: "";
+//   position: absolute;
+//   background-color: #0ea7ef;
+//   overflow: hidden;
+//   width: 30vw;
+//   height: 30vh;
+//   left: 0;
+//   z-index: 9;
+//   border-radius: 50%;
+//   top: calc(53.2rem - 15vh);
+// }
